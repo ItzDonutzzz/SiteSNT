@@ -1,0 +1,112 @@
+.header1 {
+    background-color: rgb(180, 218, 255);
+    color : whitesmoke;
+    font: "Unbounded";
+    margin-left: 0px;
+        
+    margin-right: 0px;
+        
+    width: auto;
+        
+    margin-top: 0px;
+        
+}
+
+h1 {
+    background-color : rgb(180, 218, 255);
+    color : whitesmoke;
+    font: 5em "Unbounded";
+    margin-left: 0px;
+        
+    margin-right: 0px;
+        
+    width: auto;
+        
+    margin-top: 0px;
+
+}
+
+body {
+    background-color: whitesmoke;
+    color : rgb(153, 189, 248);
+    font: 1.75em "Unbounded";
+}
+
+#col {
+    column-count: 2;
+  }
+  
+#column_gap {
+    column-count: 2;
+    column-gap: 2em;
+  }
+ 
+#wid {
+    column-width: 50vw;
+  }
+  
+
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(94, 94, 94);
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: rgb(94, 94, 94);
+}
+
+.active {
+    background-color: rgb(94, 94, 94);
+    color: rgb(180, 218, 255) ;
+}
+
+  /* Add a gray right border to all list items, except the last item (last-child) */
+li {
+    border-right: 1px solid #bbb;
+    float: left;
+}
+  
+li:last-child {
+    border-right: none;
+}
+
+  
+a {
+    display: block;
+    padding: 8px;
+    background-color: rgb(180, 218, 255);
+}
+
+p{
+    font-size: 1em;
+  }
+
+.p3, .p4{
+    line-height: 1em;
+    font: "Serif Sans";
+}
+
+
+
+lip {
+  background-color: rgb(245, 245, 245);
+  color: rgb(180, 218, 255);
+}
+
