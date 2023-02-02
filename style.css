@@ -54,6 +54,10 @@ body {
     padding: 0;
     overflow: hidden;
     background-color: rgb(94, 94, 94);
+    position: sticky;
+    top: 0px;
+    z-index: 10; 
+    
   }
   
   li {
@@ -110,4 +114,11 @@ lip {
   background-color: rgb(245, 245, 245);
   color: rgb(180, 218, 255);
 }
+
+
+divindex{
+  float : left
+}
+
+
 
