@@ -121,4 +121,6 @@ divindex{
 }
 
 
-
+dt {
+  text-decoration : underline;
+}
