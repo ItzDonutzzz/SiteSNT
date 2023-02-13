@@ -32,23 +32,9 @@ body {
     font: 1.75em "Unbounded";
     margin: 15px;
 }
-
-#col {
-    column-count: 2;
-  }
-  
-#column_gap {
-    column-count: 2;
-    column-gap: 2em;
-  }
- 
-#wid {
-    column-width: 50vw;
-  }
   
 
-
-  ul {
+ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -60,19 +46,21 @@ body {
     
   }
   
-  li {
+li {
+    float: left;
+    border-right: 1px solid #bbb;
     float: left;
   }
   
-  li a {
+li a {
     display: block;
     color: white;
+    background-color: rgb(180, 218, 255);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
   }
   
-  /* Change the link color to #111 (black) on hover */
 li a:hover {
     background-color: rgb(94, 94, 94);
 }
@@ -81,44 +69,12 @@ li a:hover {
     background-color: rgb(94, 94, 94);
     color: rgb(180, 218, 255) ;
 }
-
-  /* Add a gray right border to all list items, except the last item (last-child) */
-li {
-    border-right: 1px solid #bbb;
-    float: left;
-}
   
 li:last-child {
     border-right: none;
+    border-left: 1px solid #bbb;
 }
 
-  
-a {
-    display: block;
-    padding: 8px;
-    background-color: rgb(180, 218, 255);
-}
-
-p{
-    font-size: 1em;
-  }
-
-.p3, .p4{
-    line-height: 1em;
-    font: "Serif Sans";
-}
-
-
-
-lip {
-  background-color: rgb(245, 245, 245);
-  color: rgb(180, 218, 255);
-}
-
-
-divindex{
-  float : left
-}
 
 
 dt {
